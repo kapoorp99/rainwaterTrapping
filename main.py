@@ -42,5 +42,5 @@ if __name__ == '__main__':
         arr = [int(i) for i in input().split()]
         for i in range(0, n):
             print(arr[i])
-        print("Maximum water that can be accumulated is", trap_water(arr, n))
+        print("Maximum units of water that can be accumulated is", trap_water(arr, n))
         tc -= 1
